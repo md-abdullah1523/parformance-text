@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 10, 2020 at 07:54 PM
+-- Generation Time: Oct 10, 2020 at 08:13 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.33
 
@@ -43,8 +43,8 @@ CREATE TABLE `tbl_book` (
 --
 
 INSERT INTO `tbl_book` (`b_id`, `name`, `pbname`, `pbdate`, `sub`, `edition`, `isbn`, `ncopy`) VALUES
-(5, 'SEISD', 'Tom', 'Tom Robbins', 'Science', '2011', 9632, 20),
-(6, 'MM', 'Tom', 'Jonh', 'CSE', '2020', 457812, 24);
+(7, 'add', 'mm', 'bbb', 'nmn', 'eerr', 12, 12),
+(8, 'bbl', 'gfe', 'ggg', 'bve', 'yew', 33, 15);
 
 -- --------------------------------------------------------
 
@@ -69,8 +69,8 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id`, `name`, `email`, `address`, `mobile`, `street`, `city`, `age`, `pass`) VALUES
-(1, 'mj', 'mj@gmail.com', 'jjfbdb', 145625666, 'jjfbdb', 'gkkjs', '20', 'mj1526'),
-(2, 'MJobair', 'jobair@gmail.com', 'jjfbdb', 1578875454, 'jjfbdb', 'gkkjs', '29', 'mj1526');
+(3, 'md abdullah43', 'mdabdullah.puc19@gmail.com', 'West bakolia,chawkbazar,chittagong, Bangladesh', 1865758319, 'West bakolia,chawkbazar,chittagong, Bangladesh', 'chittagong', '23', '123'),
+(4, 'mamm', 'Effat@gmail.com', 'ctg', 16600, 'mc', 'ctg', '20', '1234');
 
 --
 -- Indexes for dumped tables
@@ -96,13 +96,13 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT for table `tbl_book`
 --
 ALTER TABLE `tbl_book`
-  MODIFY `b_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `b_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
